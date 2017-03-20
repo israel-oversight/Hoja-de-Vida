@@ -1,0 +1,23 @@
+#imgFoto{
+  float: left;
+  vertical-align: text-top;
+}
+
+#divBottom{
+  clear: both;
+
+}
+
+table, th, td {
+     border: 1px solid black;
+ }
+
+.btnEnviar{
+  width: 140px;
+  height: 20px;
+}
+
+.btnReset{
+  width: 140px;
+  height: 20px;
+}

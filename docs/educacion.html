@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/HojaDeVida.css">
+
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img src="../img/logoIniciales2.svg" width="200px" height="120px">
+        Hoja de Vida
+      </h1>
+      <!--Datos Personales-->
+      <h2>Nombre: Julio Israel Vazquez Sanchez</h2>
+      <h3>Fecha de nacimiento: 18 de Mayo de 1976</br>
+        Lugar de nacimiento: Santa Barbara, Chihuahua, Mexico
+      </h3>
+    </header>
+    <nav>
+      <a href="../index.html">Inicio</a>&nbsp;|&nbsp;<a href="experiencia.html">Experiencia</a>
+    </nav>
+    <section>
+      <h2>Educacion</h2>
+      <table  cellpadding="0" cellspacing="0" cols="4" rows="4">
+        <tr>
+          <th width="100">Año</th>
+          <th width="200">Institucion</th>
+          <th width="200">Lugar</th>
+          <th width="100">Culmino?</th>
+        </tr>
+        <tr>
+          <td align="center">1992</td>
+          <td>Secundaria Constituyentes de 1958</td>
+          <td>Santa Barbara, Chihuahua</td>
+          <td align="center">SI</td>
+        </tr>
+        <tr>
+          <td align="center">1995</td>
+          <td>Colegio de Bachilleres Plantel 1</td>
+          <td>Chihuahua, Chihuahua</td>
+          <td align="center">SI</td>
+        </tr>
+        <tr>
+          <td align="center">2000</td>
+          <td>Ingenieria en Sistemas Computacionales</td>
+          <td>Chihuahua, Chihuahua</td>
+          <td align="center">SI</td>
+        </tr>
+      </table>
+      <h3>Agregar Estudios</h3>
+      <form id="frmEducacion" method="get" action="">
+        <fieldset style="width:304px">
+          Año<br/>
+          <input type="number" id="txtAno" name="txtAno" min="2017" max="3000" step="1" required>
+          <br/>Institucion<br/>
+          <input type="text" id="txtInstitucion" name="txtInstitucion" required>
+          <br/>Lugar<br/>
+          <textarea id="txtLugar" name="txtLugar" cols="40" rows="8" required></textarea>
+          <br/>Culmino?<br/>
+          <input type="radio" id="rdSI" name="rbCulmino" value="SI" checked>SI
+          <input type="radio" id="rdNO" name="rbCulmino" value="NO">NO
+          <br/>
+          <br/>
+          <input type="submit" id="btnEnviar" value="Enviar" class="btnEnviar">
+          &nbsp;&nbsp;
+          <input type="reset" id="btnReset" class="btnReset">
+        </fieldset>
+      </form>
+      <footer>
+        <h2>Contacto</h2>
+        <h3>email: julio.vazquez@oversight.com.mx<br/>
+          tel: (614)4445435</h3>
+      </footer>
+    </section>
+
+  </body>
+</html>
